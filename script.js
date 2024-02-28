@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const article = document.querySelector("div");
+
 const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
 
 function removeArticles(bandName) {
@@ -17,4 +17,4 @@ sortedBands.forEach((item) =>{
 	ultag.appendChild(liTag);
 });
 
-article.appendChild(ultag);
+document.body.appendChild(ultag);
